@@ -17,7 +17,7 @@
 <script>
 // @ is an alias to /src
 import Nav from '@/components/Nav.vue'
-import '@/services/facebook';
+//import '@/services/facebook';
 export default {
   name: 'home',
   components: {
