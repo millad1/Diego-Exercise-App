@@ -1,8 +1,8 @@
 <template>
     <div id="secure">
-        <h1>Secure Area</h1>
+        <h1>This is where the login info will appear</h1>
         <p>
-            This is a secure area
+            here the account info will be displayed and exercises you'd like to add will display here
         </p>
     </div>
 </template>

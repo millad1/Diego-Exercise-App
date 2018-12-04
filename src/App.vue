@@ -24,30 +24,29 @@ export default {
   components: {
     Nav
   },
-  
-        name: 'App',
-        data() {
-            return {
-                authenticated: false,
-                masterAccount: {
-                    username: "DMasterAcc",
-                    password: "12344321"
-                }
-            }
-        },
-        mounted() {
-            if(!this.authenticated) {
-                this.$router.replace({ name: "login" });
-            }
-        },
-        methods: {
-            setAuthenticated(status) {
-                this.authenticated = status;
-            },
-            logout() {
-                this.authenticated = false;
-            }
+  //name: 'App',
+  data() {
+    return {
+      authenticated: false,
+      masterAccount: {
+        username: "DMasterAcc",
+        password: "12344321"
         }
+        }
+  },
+  mounted() {
+    if(!this.authenticated) {
+      this.$router.replace({ name: "login" });
+      }
+      },
+      methods: {
+        setAuthenticated(status) {
+          this.authenticated = status;
+          },
+          logout() {
+            this.authenticated = false;
+          }
+      }
     }
 //}
 </script>
