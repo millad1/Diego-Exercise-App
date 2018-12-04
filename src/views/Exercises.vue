@@ -28,7 +28,7 @@
     <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
   </h6>
   <h4 class="card-header">
-    Leg Exercises<h8>(some of these exercises may require special equipment)</h8>
+    Leg Exercises
   </h4>
   <h6 class="card-body">
     Raised Knee-In
