@@ -5,7 +5,7 @@
                 <router-link class="nav-link" exact-active-class="active" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-                <router-link class="nav-link" exact-active-class="active" to="/myAccount">My Account</router-link>
+                <router-link class="nav-link" exact-active-class="active" to="/myAccount">Login</router-link>
             </li>
             <li class="nav-item">
                 <router-link class="nav-link" exact-active-class="active" to="/exercises">Exercises</router-link>
