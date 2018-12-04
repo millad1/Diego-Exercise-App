@@ -1,7 +1,38 @@
 <template>
-  <div class="about">
-    <h1>This is an exercise page</h1>
-    <h2>this page will show the available exercises, which will allow you add them to your list of exercises to complete</h2>
-    <h3>this will be done with a button of some sort</h3>
-  </div>
+<div class="exercise">
+  <h1 class="card-header">
+    Choose from our huge selection of exercises!
+    <h6>(click the add button next to the exercise you would like to add to your workout)</h6>
+  </h1>
+  <h4 class="card-header">
+    Core Exercises
+  </h4>
+  <h6 class="card-body">
+    Crunch
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+  <h6 class="card-body">
+    Flutter Kicks
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+  <h6 class="card-body">
+    Bicycle Kicks
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+  <h6 class="card-body">
+    Planks
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+  <h6 class="card-body">
+    Raised Knee-In
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+  <h4 class="card-header">
+    Leg Exercises<h8>(some of these exercises may require special equipment)</h8>
+  </h4>
+  <h6 class="card-body">
+    Raised Knee-In
+    <a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">+</a>
+  </h6>
+</div>
 </template>
