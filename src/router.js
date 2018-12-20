@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Exercises from './views/Exercises.vue'
 import LoginComponent from "./views/myAccount.vue"
 import SecureComponent from "./views/Secure.vue"
+import Search from "./views/Search.vue"
 
 Vue.use(Router)
 
@@ -50,6 +51,11 @@ export default new Router({
       path: "/secure",
       name: "secure",
       component: SecureComponent
+    },
+    {
+      path: "/search",
+      name: "search",
+      component: Search
     }
   ]
 })
